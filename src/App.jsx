@@ -1,13 +1,13 @@
 import About from "./pages/About";
 import Login from "./pages/Login";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Footer from "./components/Footer";
+import Footer from "./Components/Footer";
 import Home from "./pages/Home";
 import Catalog from "./pages/Catalog";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import ProductDetail from "./pages/ProductDetail";
-import Navbar from "./components/Navbar";
+import Navbar from "./Components/Navbar";
 
 export default function App() {
   return (
